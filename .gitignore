@@ -1,0 +1,9 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.pytest_cache/
+htmlcov/
+coverage.xml
+"@ | Out-File -Encoding utf8 .gitignore
